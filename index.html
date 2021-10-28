@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="openWindow()">Abrir Janela</button>
+    <button onclick= "getRandomNumber()">Numero Aleatorio</button>
+    <button onclick="openNewWindow()">Abrir nova Janela</button>
+    <button onclick="windowTitle()">Mudar Titulo da janela</button>
+
+    <input type="text" onclick = "activeInput()">
+    <br>
+<div>
+    <input type="number" id='input1'>
+    <button onclick="checkNumber()" value="Enviar">Enviar</button>
+</div>
+
+<div>
+    <input type="number" id="input2">
+    <button onclick="checkInput2()" value="Envia">Enviar</button>
+
+</div> 
+
+<br>
+
+<div>
+    <h1>FORMULÁRIO SIMPLES</h1>
+        <form name="form" method="post" action="">
+            <p>Digite seu nome</p><input type="text" id="name" name ="name">
+            <p>Digite a sua idade</p><input type="number" id="age" name ="age">
+            <p>Digite o seu email</p><input type="email" id="email" name ="email">
+            <p>Digite a sua senha</p><input type="password" id="pass" name = "pass"> <br>
+            <button type="submit" onclick="formValidation()">Submit</button>
+        </form>
+   
+</div>
+
+</body>
+</html>
