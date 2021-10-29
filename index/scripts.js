@@ -1,3 +1,12 @@
+/*function calculaMedia(){
+    var nota1 = document.getElementById('nota1').value;
+    var nota2 = document.getElementById('nota2').value;
+    var nota3 = document.getElementById('nota3').value;
+    var nota4 = document.getElementById('nota4').value;
+    var resultado = document.getElementById('mediaprox').value;
+
+}*/
+
 function formValidation(){
 
     var nome = document.getElementById('name').value;
