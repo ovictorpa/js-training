@@ -36,7 +36,7 @@
             <p>Digite a sua idade</p><input type="number" id="age" name ="age">
             <p>Digite o seu email</p><input type="email" id="email" name ="email">
             <p>Digite a sua senha</p><input type="password" id="pass" name = "pass"> <br>
-            <button type="submit" onclick="formValidation()" value="Submit">Submit</button>
+            <button type="button" onclick="formValidation()" value="Submit">Submit</button>
         </form>
 </div>
 
@@ -47,11 +47,25 @@
         <p>Digite a segunda nota</p><input type="number" id="nota2" name="nota2">
         <p>Digite a terceira nota</p><input type="number" id="nota3" name="nota3">
         <p>Digite a quarta nota</p><input type="number" id="nota4" name="nota4"><br>
-        <button onclick="calculaMedia()" value="Calcular">Calcular Media</button><br>
+        <button type="button" onclick="calculaMedia()">Calcular Media</button><br>
         <h3 id="mediaprox">0.0</h3>
     </form>
 
 </div>
+
+<div>
+
+    <button type="button" onclick="contadorSegundos()">Inciar Contagem Segundos</button>
+    <h1 id="contador">0</h1>
+
+    <button type="button" onclick="contadorMinutos()">Iniciar Contagem Minutos</button>
+    <span id="minutos">0</span>:<span id="segundos">0</span>
+
+
+</div>
+
+
+
 
 </body>
 </html>

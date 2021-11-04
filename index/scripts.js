@@ -1,11 +1,35 @@
-/*function calculaMedia(){
+function contadorMinutos(){
+
+    let mostraSegundos = document.getElementById("segundos");
+    let mostraMinutos = document.getElementById("minutos");
+    let minutos = 0;
+    let segundos = 0;
+}
+
+function contadorSegundos(){
+
+    let contador = document.getElementById("contador");
+    let segundos = 0;
+    setInterval(() => contador.innerHTML = segundos++, 1000);
+
+}
+
+function calculaMedia(){
     var nota1 = document.getElementById('nota1').value;
     var nota2 = document.getElementById('nota2').value;
     var nota3 = document.getElementById('nota3').value;
     var nota4 = document.getElementById('nota4').value;
-    var resultado = document.getElementById('mediaprox').value;
 
-}*/
+    var convertido1 = parseFloat(nota1);
+    var convertido2 = parseFloat(nota2);
+    var convertido3 = parseFloat(nota3);
+    var convertido4 = parseFloat(nota4);
+
+    let mediaprox = (convertido1+convertido2+convertido3+convertido4)/4;
+    console.log(mediaprox);
+
+    document.getElementById('mediaprox').innerHTML = mediaprox;
+}
 
 function formValidation(){
 
